@@ -6,7 +6,14 @@ This repository is a collection of simple scripts used in a local organisation c
 
 Utilising Batch and PowerShell accomplishes the goal of minimising the prerequisites due to no additional installation being required as well as simplifying the process of enabling and disabling each script through the   web interface accompanying ggLeap.
 
+## Features
+* A simple installation with no additional prerequisites.
+* Security enhancements to ggLeap.
+* Tools to simplify administrative tasks related to ggLeap.
+
 ## Technology stack
+* PowerShell
+* Batch
 
 ## Scripts
 
