@@ -19,6 +19,11 @@ Utilising Batch and PowerShell accomplishes the goal of minimising the prerequis
 ## Scripts
 
 ### How to enable and disable scripts
+1. Open the web portal of ggLeap.
+2. Click on *Settings*.
+3. Click on *Client configuration*.
+4. Click on *Advanced*. 
+5. Either delete or alter the paths to become incorrect.
 
 ### user-removal
 
@@ -61,6 +66,10 @@ The scripts found in _installer-scripts_ are used to simplify the install proces
 
 6. Open _installer-scripts_.
 7. Click on each file seperately.
+
+#### Configuring the ggLeap client
+1. Follow step one to four under *How to enable and disable scripts*.
+2. Add the installation paths of all scripts, and ensure each path is consistent throughout all computers.
 
 ## The release workflow
 
