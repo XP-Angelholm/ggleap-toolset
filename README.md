@@ -46,12 +46,9 @@ The scripts found in _installer-scripts_ are used to simplify the install proces
 
 ## Preparing files and installing
 
-### Building files
+### Creating a build
 
-1. Open PowerShell in the root folder.
-2. Execute `Install-Module -Name ps2exe -Force`.
-3. Execute `build.ps1`.
-4. The files are found in _distribution_.
+The build process is initiated by executing _build.ps1_ and the latest build is found in the folder called _distribution_.
 
 ### Download and installation
 
