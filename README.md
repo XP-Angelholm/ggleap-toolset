@@ -59,18 +59,18 @@ The build process is initiated by executing _build.ps1_ and the latest build is 
 3. Click on _distribution.zip_ under _Assets_ to start the download. Choose the latest version.
 4. Extract the ZIP file.
 5. Open the resulting folder.
+6. Ensure all computers are assigned a security group allowing the execution of Batch and PowerShell, in the web interface.
 
 #### Installing using the main installer
 
-6. Click on _main-installer.exe_.
+7. Click on _main-installer.exe_.
 
 #### Installing each script separately
 
-6. Open _installer-scripts_.
-7. Click on each file separately.
+7. Open _installer-scripts_.
+8. Click on each file separately.
 
 #### Configuring the ggLeap client
-
 1. Follow step one to four under _How to enable and disable scripts_.
 2. Add the installation path of each script to all computers, and ensure each path is consistent throughout all computers.
 
