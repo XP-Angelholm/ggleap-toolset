@@ -38,8 +38,15 @@ jobs:
         run: |
           $zipPath = "distribution.zip"
           if (Test-Path $zipPath) { Remove-Item $zipPath }
-          Compress-Archive -Path "distribution\main-installer", "distribution\installer-scripts", "distribution\scripts" -DestinationPath $zipPath
-          Write-Host "Created $zipPath with selected folders"
+
+          $items = @("distribution\main-installer.exe")
+
+          $items += "distribution\installer-scripts\*"
+
+          $items += "distribution\scripts\*"
+
+          Compress-Archive -Path $items -DestinationPath $zipPath
+          Write-Host "Created $zipPath with selected files and folders"
 
       - name: Generate Release Notes
         id: release_notes
